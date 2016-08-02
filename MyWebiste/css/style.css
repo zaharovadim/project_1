@@ -1,0 +1,336 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #efefef!important;
+  color: #000;
+}
+a, a:hover, a:focus {text-decoration: none!important;}
+
+.preloader {
+  text-align: center;
+  color: #FF6760;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+.preloader i {
+  position: relative;
+  top: 50%;
+  font-size: 5rem;
+}
+
+#top {
+  width: 100%;
+  height: 1px;
+}
+
+/*Меню*/
+.menu {
+  border: 0!important; border-radius: 0!important;
+  z-index: 9999;
+  background: rgba(0, 0, 0, .4)!important;
+  box-shadow: 0 0 15px rgba(0, 0, 0, .4);
+}
+.menu .navbar-toggle {
+  border-radius: 0!important;
+  border: 0;
+  background: none!important;
+}
+.menu .navbar-toggle:hover, .menu .navbar-toggle:focus {
+  background: none;
+}
+.menu .navbar-collapse, .menu .navbar-form {
+  border: 0;
+}
+.menu .navbar-toggle .icon-bar {
+  background: #fff!important;
+}
+
+.logo img {
+  width: 100px;
+  margin-top: -15px;
+}
+
+.navbar-nav a {
+  color: #fff!important;
+  text-transform: uppercase;
+  transition: all .3s;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 30px 20px!important;
+}
+.navbar-nav a:hover {
+  background: rgba(255, 103, 96, .8)!important;
+}
+
+/*Слайдер*/
+#slider {
+  margin-top: -100px;
+  z-index: 9995
+}
+#slider .carousel-caption {
+  top: 40%;
+  left: 15%;
+  color: #fff;
+  text-align: left;
+  padding-right: 5%;
+}
+#slider .carousel-caption h3 {
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: lighter;;
+}
+#slider .carousel-caption h3 span {
+  color: #ff6760;
+}
+#slider .carousel-caption p {
+  font-size: 1.6rem;
+  margin-bottom: 40px;
+}
+#slider .carousel-caption a {
+  color: #fff;
+  background-color: #ff6760;
+  padding: 15px 40px;
+  text-transform: uppercase;
+  text-shadow: none;
+  font-weight: bolder;
+  transition: all .4s;
+}
+#slider .carousel-caption a:hover {
+  background-color: #FF7A5C;
+}
+
+/*Сервисы*/
+#services {
+  padding: 30px 0 20px 0;
+}
+#services .border {
+  background: #fff;
+  border: 1px solid #efefef;
+  padding: 10px;
+  transition: all .5s;
+}
+#services .border:hover {
+  background: #ff6760;
+  color: #fff;
+}
+#services .card {
+  text-align: center;
+  padding: 50px;
+  border: 1px solid #fff;
+  transition: all .5s;
+}
+#sevices .card i {
+  color: #444;
+}
+#services .card h1 {
+  font-size: 25px;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+#services .card p {
+  font-size: 15px;
+}
+#services .card a {
+  border-bottom: 1px dashed #ff6760;
+  color: #000;
+  transition: all .2s;
+}
+#services .card a:hover, .services .card a:focus {
+  border-bottom: 1px dashed #fff;
+  text-decoration: none;
+}
+#services .line {
+  border: .1px dashed #ccc;
+  margin: 30px 10px 30px 10px;
+  background: none;
+}
+
+/*Галерея*/
+#gallery {
+  padding: 50px 0;
+  color: #000;
+}
+#gallery h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+}
+#gallery h5 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 60px;
+}
+#gallery .card {
+  text-align: center;
+  margin-bottom: 60px;
+}
+#gallery .card img {
+  height: 180px;
+  width: 250px;
+  text-align: center;
+  cursor: zoom-in;
+  transition: all .4s;
+  max-width: 100%;
+}
+#gallery .card img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+#gallery .line {
+  border: 1px dashed #ccc;
+  margin: 30px 50px 30px 50px;
+  background: none;
+}
+#disqus {
+  margin-bottom: 50px;
+}
+
+/*Подвал*/
+footer {
+  border-top: 1px solid #000;
+  padding: 40px 30px 40px 30px;
+  margin-bottom: 50px;
+}
+footer ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+}
+footer li {
+  list-style: none;
+  display: inline-block;
+}
+footer a, footer a:focus {
+  color: #fff;
+  background: rgba(0, 0, 0, .5);
+  padding: 10px 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+  transition: all .5s;
+}
+footer a:hover {
+  text-decoration: none;
+  background: #ff6760;
+  color: #fff;
+}
+
+/* Back top */
+.go-top  {
+  background: rgba(0, 0, 0, .5);
+  bottom: 2em;
+  right: 2em;
+  color: #ffffff;
+  font-size: 20px;
+  position: fixed;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  transition: all .3s;
+  z-index: 999;
+}
+
+.go-top:hover  {
+    background: #ff6760;
+    color: #ffffff;
+}
+
+
+/*=== MEDIA ===*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  #slider .carousel-caption h3 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: lighter;;
+  }
+  #slider .carousel-caption a {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  .navbar-nav {
+    text-align: center;
+    padding: 10px 0;
+    background: #262626;
+  }
+  .navbar-nav a {
+    color: #fff!important;
+    text-transform: uppercase;
+    transition: all .3s;
+    padding: 12px 0 12px 0!important;
+    margin-bottom: 5px;
+  }
+  .navbar-nav a:hover, .navbar-nav li.active-link a {
+    color: #fff!important;
+  }
+  .logo img {
+    width: 70px;
+    margin-top: -15px;
+  }
+  
+  #slider .carousel-caption p {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+  #slider .carousel-caption h3 {
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: lighter;;
+  }
+  #slider .carousel-caption a {
+    font-size: 1rem;
+    padding: 10px 30px;
+  }
+  #slider .carousel-caption {
+    top: 30%;
+    left: 15%;
+  }
+
+  #services .card {
+    text-align: center;
+    /*padding: 20px;*/
+    transition: all .5s;
+  }
+
+  footer p {
+    text-align: center;
+  }
+  footer ul {
+    float: none;
+    text-align: center;
+    margin-top: 40px;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+  #slider .carousel-caption p {
+    margin-bottom: 20px; 
+  }
+}
+
+@media only screen and (max-width : 380px) {
+  #slider .carousel-caption {
+    display: none;
+  }
+}
